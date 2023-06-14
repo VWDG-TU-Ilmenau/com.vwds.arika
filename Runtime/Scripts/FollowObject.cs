@@ -13,7 +13,8 @@ namespace com.vwds.arika
         private Vector3 currentAngles;
         void Start()
         {
-            offset = new Vector3(transform.localPosition.x, transform.localPosition.y, transform.localPosition.z);
+            offset = new Vector3(0f, -1f, -0.4f);
+            //offset = new Vector3(transform.localPosition.x, transform.localPosition.y, transform.localPosition.z);
             UpdateTransform();
         }
 
