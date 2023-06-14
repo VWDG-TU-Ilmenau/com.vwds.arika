@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.XR.ARFoundation;
 
-namespace MetaReal.Avatars
+namespace com.vwds.arika
 {
     public class PhoneModelBehaviour : MonoBehaviour
     {

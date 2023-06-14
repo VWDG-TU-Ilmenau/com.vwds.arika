@@ -1,5 +1,4 @@
 using UnityEngine;
-using MetaReal.Avatars;
 
 namespace com.vwds.arika
 {

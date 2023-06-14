@@ -9,7 +9,7 @@ namespace com.vwds.arika
     {
         // Start is called before the first frame update
         public Transform EndMarker;
-        public MetaReal.Avatars.PhoneModelBehaviour PhoneObject;
+        public PhoneModelBehaviour PhoneObject;
         public GameObject AvatarFace;
         public Vector3 offset;
         public float VelocityMultiplyer;
