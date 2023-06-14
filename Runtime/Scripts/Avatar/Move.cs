@@ -46,7 +46,7 @@ namespace com.vwds.arika
         }
         public void ChangeAvatarHeight(float height)
         {
-            
+
         }
 
         void Update()
@@ -93,11 +93,13 @@ namespace com.vwds.arika
 
             animController.SetFloat("Side Direction", averageVelocityX);
             animController.SetFloat("Forward Direction", averageVelocityZ);
-
         }
 
         public void CalculateVelocity()
         {
+            if (PhoneObject == null)
+                return;
+
             velocityX = ((transform.localPosition.x - prevPosition.x) / Time.deltaTime) * VelocityMultiplyer;
             velocityZ = ((transform.localPosition.z - prevPosition.z) / Time.deltaTime) * VelocityMultiplyer;
 
