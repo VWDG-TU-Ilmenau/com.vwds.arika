@@ -16,7 +16,8 @@ namespace com.vwds.arika
         public Transform leftHandObj = null;
         public Transform lookObj = null;
         public Handedness Handedness = Handedness.RightHanded;
-        PhoneModelBehaviour PhoneObject;
+        public bool IsPointing;
+        private  PhoneModelBehaviour PhoneObject;
 
         void Start()
         {
@@ -74,6 +75,16 @@ namespace com.vwds.arika
                     animator.SetLookAtWeight(0);
                 }
             }
+        }
+
+        public void PointHand()
+        {
+            animator.SetBool("Point", IsPointing);
+        }
+
+        public Animator GetAnimator()
+        {
+            return animator;
         }
     }
 
