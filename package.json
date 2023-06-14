@@ -1,0 +1,28 @@
+{
+  "name": "com.vwds.arika",
+  "version": "1.0.0",
+  "displayName": "ARIKA",
+  "description": "A tracking solution for avatars in smartphone AR",
+  "unity": "2021.3",
+  "unityRelease": "15f1",
+  "documentationUrl": "https://github.com/VWDG-TU-Ilmenau/com.vwds.arika/wiki",
+  "changelogUrl": "https://github.com/VWDG-TU-Ilmenau/com.vwds.arika/blob/main/CHANGELOG.md",
+  "licensesUrl": "https://github.com/VWDG-TU-Ilmenau/com.vwds.arika/blob/main/LICENSE",
+  "dependencies": {
+    "com.unity.xr.arcore": "4.2.7",
+    "com.unity.xr.arfoundation": "4.2.7",
+    "com.unity.xr.arkit": "4.2.7",
+    "com.unity.xr.arkit-face-tracking": "4.2.7"
+ },
+ "keywords": [
+    "AR",
+    "Avatars",
+    "IK",
+    "XR"
+  ],
+  "author": {
+    "name": "VWDS",
+    "email": "vwds-wm@tu-ilmenau.de",
+    "url": "https://www.tu-ilmenau.de/en/university/departments/department-of-economic-sciences-and-media/profile/institutes-and-groups/group-virtual-worlds-and-digital-games-group"
+  }
+}

@@ -1,0 +1,36 @@
+{
+    "name": "com.vwds.arika",
+    "references": [
+        "Unity.XR.ARFoundation"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [
+        {
+            "name": "com.unity.xr.arcore",
+            "expression": "4.2.7",
+            "define": "ARCore_4_2_7_OR_NEWER"
+        },
+        {
+            "name": "com.unity.xr.arfoundation",
+            "expression": "4.2.7",
+            "define": "ARFOUNDATION_4_2_7_OR_NEWER"
+        },
+        {
+            "name": "com.unity.xr.arkit",
+            "expression": "4.2.7",
+            "define": "arkit_4_2_7_OR_NEWER"
+        },
+        {
+            "name": "com.unity.xr.arkit-face-tracking",
+            "expression": "4.2.7",
+            "define": "ARKIT-FACE-TRACKING_4_2_7_OR_NEWER"
+        }
+    ],
+    "noEngineReferences": false
+}
