@@ -15,15 +15,22 @@
     "com.unity.xr.arkit-face-tracking": "4.2.7"
  },
  "keywords": [
-    "AR",
-    "Avatars",
-    "IK",
-    "XR"
+    "ar",
+    "avatars",
+    "ik",
+    "xr",
+    "virtual",
+    "augmented",
+    "reality"
   ],
   "author": {
-    "name": "VWDS",
+    "name": "Virtual Worlds and Digital Games Research Group - Technische Universität Ilmenau",
     "email": "vwds-wm@tu-ilmenau.de",
     "url": "https://www.tu-ilmenau.de/en/university/departments/department-of-economic-sciences-and-media/profile/institutes-and-groups/group-virtual-worlds-and-digital-games-group"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VWDG-TU-Ilmenau/com.vwds.arika.git"
   },
   "samples":[
     {
