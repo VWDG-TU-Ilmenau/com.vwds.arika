@@ -24,5 +24,12 @@
     "name": "VWDS",
     "email": "vwds-wm@tu-ilmenau.de",
     "url": "https://www.tu-ilmenau.de/en/university/departments/department-of-economic-sciences-and-media/profile/institutes-and-groups/group-virtual-worlds-and-digital-games-group"
-  }
+  },
+  "samples":[
+    {
+      "displayName": "ARIKA Sample",
+      "description": "Contains sample scene for a smartphone AR user animation",
+      "path": "Samples~/ARIKA Sample"
+    }
+  ]
 }
