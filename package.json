@@ -1,6 +1,6 @@
 {
   "name": "com.vwds.arika",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "displayName": "ARIKA",
   "description": "A tracking solution for avatars in smartphone AR",
   "unity": "2021.3",
@@ -37,6 +37,11 @@
       "displayName": "ARIKA Sample",
       "description": "Contains sample scene for a smartphone AR user animation",
       "path": "Samples~/ARIKA Sample"
+    },
+    {
+      "displayName": "Ready Player Me Sample",
+      "description": "Contains sample scene for a integrating Ready Player Me with Arika",
+      "path": "Samples~/ReadyPlayerArika"
     }
   ]
 }
