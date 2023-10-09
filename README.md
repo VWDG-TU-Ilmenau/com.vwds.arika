@@ -1,7 +1,7 @@
 # ARIKA: A Unity Package for Smartphone AR Avatar Representation with Inverse Kinematics
 Click to watch the video!
 <p align="center">
-  <a href="[https://www.youtube.com/watch?v=hgpjbKv8XFY](https://www.youtube.com/watch?v=lm-q8eDso2Q)">Watch Video</a>
+  <a href="https://www.youtube.com/watch?v=lm-q8eDso2Q">Watch Video</a>
 </p>
 
 Research code for IMUPoser (CHI 2023)
