@@ -7,7 +7,7 @@ namespace com.vwds.arika
 {
     public class PhoneModelBehaviour : MonoBehaviour
     {
-        private ARCameraManager cameraManager;
+        public ARCameraManager cameraManager;
         // Start is called before the first frame update
         void Start()
         {

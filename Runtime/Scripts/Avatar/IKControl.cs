@@ -16,7 +16,8 @@ namespace com.vwds.arika
         public Transform lookObj = null;
         public Handedness Handedness = Handedness.RightHanded;
         public bool IsPointing;
-        private  PhoneModelBehaviour PhoneObject;
+        public bool IsFaceTracked;
+        private PhoneModelBehaviour PhoneObject;
 
         void Start()
         {
@@ -40,7 +41,7 @@ namespace com.vwds.arika
                 {
 
                     // Set the look target position, if one has been assigned
-                    if (lookObj != null)
+                    if (lookObj != null && !IsFaceTracked)
                     {
                         animator.SetLookAtWeight(0.5f);
                         animator.SetLookAtPosition(lookObj.position);

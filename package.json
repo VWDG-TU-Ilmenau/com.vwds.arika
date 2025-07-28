@@ -41,6 +41,11 @@
       "displayName": "Ready Player Me Sample",
       "description": "Contains sample scene for a integrating Ready Player Me with Arika",
       "path": "Samples~/ReadyPlayerArika"
+    },
+    {
+      "displayName": "ARIKA 2 - Face Sample",
+      "description": "ARIKA 2 sample scene and prefabs for dual point camera and facetracking with ARKit",
+      "path": "Samples~/ARIKA-Face"
     }
   ]
 }
