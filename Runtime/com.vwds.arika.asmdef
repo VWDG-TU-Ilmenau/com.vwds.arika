@@ -1,7 +1,13 @@
 {
     "name": "com.vwds.arika",
     "references": [
-        "Unity.XR.ARFoundation"
+        "Unity.XR",
+        "Unity.XR.ARFoundation",
+        "Unity.XR.ARKit",
+        "Unity.XR.ARKit.FaceTracking",
+        "Unity.XR.ARSubsystems",
+        "Unity.XR.CoreUtils",
+        "Unity.TextMeshPro"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],
