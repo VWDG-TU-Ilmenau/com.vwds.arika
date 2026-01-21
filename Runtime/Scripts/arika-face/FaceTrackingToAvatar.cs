@@ -1,3 +1,4 @@
+#if UNITY_IOS && UNITY_EDITOR
 using UnityEngine;
 using UnityEngine.XR.ARFoundation;
 using UnityEngine.XR.ARKit;
@@ -82,3 +83,4 @@ namespace com.vwds.arika.face
         }
     }
 }
+#endif

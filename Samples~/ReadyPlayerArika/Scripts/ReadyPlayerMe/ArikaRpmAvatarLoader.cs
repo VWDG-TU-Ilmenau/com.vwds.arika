@@ -1,6 +1,9 @@
 // using ReadyPlayerMe.AvatarLoader;
 using ReadyPlayerMe.Core;
 using UnityEngine;
+#if UNITY_IOS && UNITY_EDITOR
+using com.vwds.arika.face;
+#endif
 
 namespace com.vwds.arika.readyplayerme
 {
@@ -13,6 +16,9 @@ namespace com.vwds.arika.readyplayerme
         [SerializeField]
         [Tooltip("Set this to the URL or shortcode of the Ready Player Me Avatar you want to load.")]
         private string avatarUrl = "https://api.readyplayer.me/v1/avatars/638df693d72bffc6fa17943c.glb";
+        
+        [SerializeField]
+        private bool isFace;
         private GameObject avatar;
         private void Awake()
         {
@@ -20,7 +26,7 @@ namespace com.vwds.arika.readyplayerme
         }
         private void Start()
         {
-            LoadAvatar(avatarUrl);
+            // LoadAvatar(avatarUrl);
         }
         public void LoadAvatar(string avatarUrl)
         {
@@ -31,8 +37,26 @@ namespace com.vwds.arika.readyplayerme
                 avatar = args.Avatar;
                 avatar.transform.parent = transform;
                 GetComponent<Animator>().avatar = avatar.GetComponent<Animator>().avatar;
-                GetComponent<Move>().AvatarFace = GetComponent<Animator>().GetBoneTransform(HumanBodyBones.Head).gameObject;
-                GetComponent<Move>().enabled = true;
+                // Study Specific
+                // 
+                if (isFace)
+                {
+#if UNITY_IOS && UNITY_EDITOR
+                    GetComponent<MoveFace>().AvatarFace = GetComponent<Animator>().GetBoneTransform(HumanBodyBones.Head).gameObject;
+                    GetComponent<MoveFace>().enabled = true;
+#endif
+                }
+                else
+                {
+                    GetComponent<Move>().AvatarFace = GetComponent<Animator>().GetBoneTransform(HumanBodyBones.Head).gameObject;
+                    GetComponent<Move>().enabled = true;
+                }
+#if UNITY_IOS && UNITY_EDITOR
+                if (GetComponent<face.FaceTrackingToAvatar>())
+                {
+                    GetComponent<face.FaceTrackingToAvatar>().SetAvatarRenderer(avatar.GetComponentInChildren<SkinnedMeshRenderer>());
+                }
+#endif
                 Destroy(avatar.GetComponent<Animator>());
             };
             avatarLoader.LoadAvatar(avatarUrl);

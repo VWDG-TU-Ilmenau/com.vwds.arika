@@ -1,3 +1,4 @@
+#if UNITY_IOS && UNITY_EDITOR
 using System;
 using System.Linq;
 using System.Collections.Generic;
@@ -193,3 +194,4 @@ namespace com.vwds.arika.face
         }
     }
 }
+#endif
