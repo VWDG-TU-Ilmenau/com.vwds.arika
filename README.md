@@ -52,3 +52,63 @@ BibTex Reference:
   series = {VRST '23}
 }
 ```
+### ARIKA Behavioral Realism Evaluation (CW 2024)
+E. Makled, C. Gerhardt, T. Schwandt, F. Weidner and W. Broll, "Investigating Behavioral Realism of Single-Point IK Animated Avatars of Others in AR and VR," 2024 International Conference on Cyberworlds (CW), Kofu, Japan, 2024, pp. 1-8, doi: 10.1109/CW64301.2024.00010.
+
+[Download Paper Here](https://ieeexplore.ieee.org/document/10918246)
+
+BibTeX Reference:
+
+```
+@INPROCEEDINGS{10918246,
+  author={Makled, ElHassan and Gerhardt, Christoph and Schwandt, Tobias and Weidner, Florian and Broll, Wolfgang},
+  booktitle={2024 International Conference on Cyberworlds (CW)}, 
+  title={Investigating Behavioral Realism of Single-Point IK Animated Avatars of Others in AR and VR}, 
+  year={2024},
+  volume={},
+  number={},
+  pages={1-8},
+  keywords={Visualization;Tracking;Avatars;Immersive experience;Animation;Motion capture;Virtual and augmented reality;tracking;animation},
+  doi={10.1109/CW64301.2024.00010}
+}
+```
+
+### ARIKA Behavioral Realism Evaluation (TVC 2025)
+Makled, E., Gerhardt, C., Schwandt, T. et al. Evaluating behavioral realism in AR and VR: a comparison of single-point IK and full-body motion capture virtual humans. Vis Comput 41, 11721–11733 (2025). https://doi.org/10.1007/s00371-025-03934-5
+
+[Download Paper Here](hhttps://link.springer.com/article/10.1007/s00371-025-03934-5)
+
+BibTeX Reference:
+
+```
+@article{makled2025evaluating,
+  title={Evaluating behavioral realism in AR and VR: a comparison of single-point IK and full-body motion capture virtual humans: E. Makled et al.},
+  author={Makled, Elhassan and Gerhardt, Christoph and Schwandt, Tobias and Weidner, Florian and Broll, Wolfgang},
+  journal={The Visual Computer},
+  pages={1--13},
+  year={2025},
+  publisher={Springer}
+}
+```
+
+### DPIK (ISMAR 2025)
+E. Makled and W. Broll, "DPIK: User Embodiment of Dual-Point Tracked Avatars Using Hand IK and Face Tracking for Smartphone AR Users," 2025 IEEE International Symposium on Mixed and Augmented Reality (ISMAR), Daejeon, Korea, Republic of, 2025, pp. 921-931, doi: 10.1109/ISMAR67309.2025.00100.
+
+[Download Paper Here](https://www.researchgate.net/profile/Elhassan-Makled/publication/397520820_DPIK_User_Embodiment_of_Dual-Point_Tracked_Avatars_Using_Hand_IK_and_Face_Tracking_for_Smartphone_AR_Users/links/6914770259a35304d899a570/DPIK-User-Embodiment-of-Dual-Point-Tracked-Avatars-Using-Hand-IK-and-Face-Tracking-for-Smartphone-AR-Users.pdf?origin=profileOverview&_tp=eyJjb250ZXh0Ijp7InBhZ2UiOiJwcm9maWxlIiwicHJldmlvdXNQYWdlIjoicHVibGljYXRpb24iLCJwb3NpdGlvbiI6InBhZ2VDb250ZW50In19)
+
+BibTeX Reference:
+
+```
+@INPROCEEDINGS{11220382,
+  author={Makled, Elhassan and Broll, Wolfgang},
+  booktitle={2025 IEEE International Symposium on Mixed and Augmented Reality (ISMAR)}, 
+  title={DPIK: User Embodiment of Dual-Point Tracked Avatars Using Hand IK and Face Tracking for Smartphone AR Users}, 
+  year={2025},
+  volume={},
+  number={},
+  pages={921-931},
+  keywords={Hands;Measurement units;Tracking;Avatars;System performance;Particle measurements;User experience;Faces;Augmented reality;Pragmatics;User Embodiment;Tracking fidelity;Virtual reality;Augmented reality;User study},
+  doi={10.1109/ISMAR67309.2025.00100}
+  }
+
+```

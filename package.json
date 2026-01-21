@@ -1,6 +1,6 @@
 {
   "name": "com.vwds.arika",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "displayName": "ARIKA",
   "description": "A tracking solution for avatars in smartphone AR",
   "unity": "6000.0",
@@ -12,8 +12,8 @@
     "com.unity.xr.arcore": "6.0.2",
     "com.unity.xr.arfoundation": "6.0.3",
     "com.unity.xr.arkit": "6.0.2"
- },
- "keywords": [
+  },
+  "keywords": [
     "ar",
     "avatars",
     "ik",
@@ -23,7 +23,7 @@
     "reality"
   ],
   "author": {
-    "name": "Virtual Worlds and Digital Games Research Group - Technische Universität Ilmenau",
+    "name": "Virtual Worlds and Digital Games Research Group - Technische Universit\u00e4t Ilmenau",
     "email": "vwds-wm@tu-ilmenau.de",
     "url": "https://www.tu-ilmenau.de/en/university/departments/department-of-economic-sciences-and-media/profile/institutes-and-groups/group-virtual-worlds-and-digital-games-group"
   },
@@ -31,7 +31,7 @@
     "type": "git",
     "url": "git+https://github.com/VWDG-TU-Ilmenau/com.vwds.arika.git"
   },
-  "samples":[
+  "samples": [
     {
       "displayName": "ARIKA Sample",
       "description": "Contains sample scene for a smartphone AR user animation",
